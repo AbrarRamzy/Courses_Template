@@ -1,0 +1,231 @@
+/*start of navbar*/
+.navbar{
+    background-color: rgb(158, 3, 3);
+    padding:1px;
+    position:sticky;
+    top:0;
+    right:0;
+    z-index: 1000;
+    overflow: hidden;
+    z-index: 10000;
+}
+
+.navbar ul{
+    overflow: hidden;
+}
+.navbar ul li{
+    float: left;
+    margin:  0px 15px;
+    list-style: none;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding:5PX 10PX;
+    display:block;
+    margin: auto;
+    border-radius: 7px;
+}
+.navbar img{
+    float: left;
+    margin-left:20px ;
+    margin-top: 5 px;
+    padding:15px;
+}
+/*end of navbar*/
+/*start of hero */
+.hero{
+    height:60vh;
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 60vh;
+    background-position: center;
+    display:block;
+    position:relative;
+    top:0px;
+    left:0px;
+}
+.hero h1{   
+    position:absolute;
+    top:100px;
+    left:200px;
+    color:#fff;
+}
+.hero .lista {
+    position:absolute;
+    top:60% ;
+    left:38%;
+}
+.hero .lista a{
+    background-color: rgb(158, 3, 3);
+    display:inline-block;
+    font-size: 18px;
+    color:#fff;
+    padding: 8px 13px;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}/*end hero */
+.navbar ul li a:hover,
+.hero .lista a:hover,
+.courses table button:hover,
+.box a:hover{
+    background-color: azure;
+    color: brown;
+}
+/*start of table*/
+table{ 
+    border-collapse:collapse;
+    margin:auto;
+    color:#fff;
+}
+.courses{
+    margin-top: 80px;
+}
+.cou{
+    color: black;
+}
+.title{
+    color:black;
+}
+.courses table th,td{
+    border:2px solid rgb(158, 3, 3);
+    padding:10px 20px;
+    text-align:center;
+}
+tbody tr:nth-child(odd){
+    background-color: darkgray;
+}
+tbody tr:nth-child(even){
+    background-color:dimgrey
+}
+.bu{
+    background-color: rgb(158, 3, 3);
+    padding:7px;
+    border-radius: 10px;
+}/*end of table*/
+.heading{
+    text-align: center;
+}/*end of heading*/
+/*start of products*/
+.products{
+    margin:auto;
+}
+.ph{
+    height:85vh;
+    background-image:url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:block;
+    overflow: hidden;
+}
+.ph1{
+    width: 300px;
+    height: 480px;
+    background-color: gray;
+    padding:0px;
+    margin:50px;
+    float: left;
+}
+.ph1 img{
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+}/*
+.div1{
+    position: absolute;
+    top:20px;
+    right:100px;
+    left:30px;
+    bottom:200px;
+}
+.div2{
+    position: absolute;
+    top:20px;
+    left:500px;
+    bottom:25px;
+}
+.div3{
+    position: absolute;
+    top:20x;
+    left:950px;
+}*/
+.libo{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 99px;
+    display: inline-block;
+    background-position: center;
+}
+.ds{
+    font-size:36px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Waterfall', cursive
+}
+.pc{
+    text-align: center;
+    overflow:hidden;
+}
+/* end of products*/   
+.logo1{
+    background-color:skyblue;
+    width:550px;
+    height:500px;
+    border-radius: 7px;
+    margin: 50px 60px;
+}
+.logo2{
+    background-color:orangered;
+    width:550px;
+    height:500px;
+    margin: 50px 60px;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+.lop{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    display: inline;
+}
+.lop img{
+    margin: 20px 30%;
+}
+.tex{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Waterfall', cursive
+}
+.pa{
+    text-align:center;
+}
+.bot{
+    text-decoration: none;
+    color:#fff;
+    background-color: rgb(158, 3, 3);
+    padding:10px 20px;
+    background-position: center;
+    border-radius: 9px;
+    display:inline-block;
+    margin:7px 35%;
+    overflow: hidden;
+}/*end of php*/
+/*end of php*/
+.end{
+    clear: both;
+    overflow: hidden;
+    background-color:black;
+}
+.endt{
+    color:#fff;
+    text-align:center;
+}
